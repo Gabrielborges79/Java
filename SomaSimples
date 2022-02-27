@@ -10,7 +10,7 @@ public class SomaSimples {
  		A = sc.nextInt();
 		B = sc.nextInt();
  
- 		soma =  A+B    ;  //insira as variáveis corretamente
+ 		soma =  A+B    ; 
  
  		System.out.println("SOMA = " +    soma    );
  
