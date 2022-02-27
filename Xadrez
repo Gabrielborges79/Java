@@ -8,7 +8,7 @@ public class Xadrez {
 		int C = sc.nextInt();
 		if ( L%2==C%2)
 			System.out.println("1");
-		else                                               //complete o código nos espaços em branco
+		else                                              
 			System.out.println("0");
 		sc.close();
 	}
