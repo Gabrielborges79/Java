@@ -1,0 +1,46 @@
+/*
+
+Uma das técnicas mais poderosas usadas pelos ninjas, chamada de Kage Bunshin no Jutsu e conhecida também como "Técnica dos clones de sombra", é capas de produzir uma cópia idêntica da pessoa que utilizar essa técnica.
+
+É como uma espécie de mitose, na qual um ninja vira dois, sem possibilidade de diferenciar qual é o original e qual é a cópia.
+
+E por se tratar de uma cópia fidedigna, essa cópia por si só também é capaz de realizar a técnica de clone de sombra e, portanto, se o original e a cópia o fizeram, isso resultaria em 4 ninjas no total. E assim por diante, numa multiplicidade quase infinita a depender da habilidade do ninja.
+
+Uma das técnicas mais poderosas usadas pelos ninjas, chamada de Kage Bunshin no Jutsu e conhecida também como "Técnica dos clones de sombra", é capas de produzir uma cópia idêntica da pessoa que utilizar essa técnica.
+
+É como uma espécie de mitose, na qual um ninja vira dois, sem possibilidade de diferenciar qual é o original e qual é a cópia.
+
+E por se tratar de uma cópia fidedigna, essa cópia por si só também é capaz de realizar a técnica de clone de sombra e, portanto, se o original e a cópia o fizeram, isso resultaria em 4 ninjas no total. E assim por diante, numa multiplicidade quase infinita a depender da habilidade do ninja.
+
+Uma das técnicas mais poderosas usadas pelos ninjas, chamada de Kage Bunshin no Jutsu e conhecida também como "Técnica dos clones de sombra", é capas de produzir uma cópia idêntica da pessoa que utilizar essa técnica.
+
+É como uma espécie de mitose, na qual um ninja vira dois, sem possibilidade de diferenciar qual é o original e qual é a cópia.
+
+E por se tratar de uma cópia fidedigna, essa cópia por si só também é capaz de realizar a técnica de clone de sombra e, portanto, se o original e a cópia o fizeram, isso resultaria em 4 ninjas no total. E assim por diante, numa multiplicidade quase infinita a depender da habilidade do ninja.
+
+*/
+
+
+import java.util.Scanner;
+
+public class Ninja {
+
+	public static void main(String[] args) {
+	
+		int n=4;
+		int i;
+		
+		for (i=1; i<=n;i++) {
+			if(i<=1) {
+				System.out.println("0");
+			}
+			else if (i%2==1){
+				continue;
+			}
+			else {
+				System.out.println(i/2);
+			}
+		}
+		
+	}
+}
